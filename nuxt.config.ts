@@ -13,7 +13,13 @@ export default defineNuxtConfig({
         },
       },
       css: [
-        "~/assets/css/tailwind.css"
+        "~/assets/css/tailwind.css",
+        '@fortawesome/fontawesome-svg-core/styles.css'
       ],
+      head : {
+        link: [
+          { rel: 'icon', type: 'image/png', href: 'favicon.png' }
+        ],
+      },
 
 })

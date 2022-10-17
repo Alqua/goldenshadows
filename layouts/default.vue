@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col w-screen h-screen overflow-y-auto overflow-x-hidden bg-yellow-50">
+    <div class="flex flex-col w-screen overflow-y-auto overflow-x-hidden bg-yellow-50 h-screen">
       <header class="w-full h-16 bg-yellow-50">
   
   
@@ -25,25 +25,29 @@
 
       </header>
 
-      <!-- <div v-if="showMobileMenu">
-        <p class="text-2xl"> AXIS AS BOLD AS LOVE</p>
-      </div> -->
        
               
   
   
-      <main class="flex-grow w-full h-full p-4 mx-auto mt-10 max-w-7xl">
-        <div class="font-mono">
+      <main class="flex-grow w-full h-full p-4 mx-auto my-10 max-w-7xl">
+        <div class="font-sans">
         <slot />
       </div>
       </main>
-      <footer class="sticky top-[100vh] items-center justify-center m-2 p-2 w-full h-auto text-black">
+
+    
+      <footer class="sticky top-[100vh] justify-center m-2 p-2 w-full h-auto text-black">
+        
           <p class="text-gray-700 text-center">
             Golden Shadows &copy; {{ new Date().getFullYear() }}
           </p>
       </footer>
+
+
     </div>
   </template>
+
+ 
 
 <script>
     export default defineNuxtComponent({
