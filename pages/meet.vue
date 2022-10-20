@@ -1,8 +1,9 @@
 <template>
-    <Head>
+
+    <div class="flex-auto">
+        <Head>
         <Title>Meet the Artists | Golden Shadows</Title>
     </Head>
-    <div class="flex-auto">
     <article class="max-w-prose sm:mx-4 md:mx-auto">
         <h1 class="font-sans text-5xl text-gray-900">Meet the Artists</h1>
         <h2 class="font-sans mt-5 text-3xl text-gray-900">YADANAR WIN</h2>

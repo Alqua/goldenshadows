@@ -5,6 +5,9 @@
     </Head> -->
 
     <div class="flex-auto bg-yellow-50 ">
+    <Head>
+        <Title>The Exhibition | Golden Shadows</Title>
+    </Head>
 
 
         <div class="flex justify-center">
@@ -17,11 +20,11 @@
             <h1 class="font-sans text-xl px-2 pt-2 pb-5  text-gray-900">A digital exhibition with Yadanar Win and Kolatt <font-awesome-icon v-if="showGuide" :icon="['fas', 'user-secret']" /></h1>
         </div>
         <div class="flex justify-center">
-            <button @click="toggleGuide()" class="font-sans border border-black text-l p-2 mb-4 hover:bg-yellow-400 text-gray-900" v-cloak>
+            <div @click="toggleGuide()" class="font-sans border border-black text-l p-2 mb-4 hover:bg-yellow-400 text-gray-900" v-cloak>
                 <span>User Guide </span>
                <font-awesome-icon v-if="showGuide" :icon="['fas', 'chevron-up']" v-cloak /><font-awesome-icon v-else :icon="['fas', 'chevron-down']" v-cloak />
                 <!-- <font-awesome-icon icon="fa-solid fa-chevron-down" /> -->
-            </button>
+            </div>
         </div>
         <div class="flex justify-center ">
             <div v-if="showGuide" class="max-w-3xl border border-black p-2 mb-4 prose" >

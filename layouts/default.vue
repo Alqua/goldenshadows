@@ -29,10 +29,10 @@
               
   
   
-      <main class="flex-grow w-full h-full p-4 mx-auto my-10 max-w-7xl">
-        <div class="font-sans">
+      <main class="font-sans flex-grow w-full h-full p-4 mx-auto my-10 max-w-7xl">
+        
         <slot />
-      </div>
+      
       </main>
 
     

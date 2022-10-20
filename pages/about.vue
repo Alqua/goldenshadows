@@ -1,8 +1,9 @@
 <template>
+
+    <div class="flex-auto overflow-y-auto">
     <Head>
         <Title>About the Project | Golden Shadows</Title>
     </Head>
-    <div class="flex-auto overflow-y-auto">
     <article class="max-w-prose mb-3 pb-3 sm:mx-4 md:mx-auto ">
         <h1 class="font-sans text-5xl text-gray-900">About the Project</h1>
         <h2 class="font-sans mt-5 text-3xl text-gray-900">What is it?</h2>
