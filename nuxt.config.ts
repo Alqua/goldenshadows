@@ -11,6 +11,12 @@ export default defineNuxtConfig({
             },
           },
         },
+        transpile:[
+          '@fortawesome/vue-fontawesome',
+          '@fortawesome/fontawesome-svg-core',
+          '@fortawesome/free-regular-svg-icons',
+          '@fortawesome/free-solid-svg-icons',
+        ]
       },
       css: [
         "~/assets/css/tailwind.css",
@@ -31,3 +37,4 @@ export default defineNuxtConfig({
 })
 
 // <script src="https://kit.fontawesome.com/d0b3037d0c.js" crossorigin="anonymous"></script>
+
