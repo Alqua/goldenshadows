@@ -1,4 +1,7 @@
 <template>
+    <Head>
+        <Title>Meet the Artists | Golden Shadows</Title>
+    </Head>
     <div class="flex-auto">
     <article class="max-w-prose sm:mx-4 md:mx-auto">
         <h1 class="font-sans text-5xl text-gray-900">Meet the Artists</h1>
@@ -20,6 +23,6 @@
 
     </article>
 
-
+    <div class="m-10 p-10"></div>
     </div>
 </template>

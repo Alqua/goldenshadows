@@ -1,4 +1,8 @@
 <template>
+
+    <Head>
+        <Title>About the Artworks | Golden Shadows</Title>
+    </Head>
     <div class="flex-auto mb-14">
     <article class="max-w-prose mb-5 sm:mx-4 md:mx-auto">
         <h1 class="font-sans text-5xl text-gray-900">About the Artworks</h1>

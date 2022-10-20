@@ -1,5 +1,12 @@
 <template>
+
+        <!-- <Head>
+        <Title>The Exhibition | Golden Shadows</Title>
+    </Head> -->
+
     <div class="flex-auto bg-yellow-50 ">
+
+
         <div class="flex justify-center">
             <h1 class="font-sans text-5xl p-2 text-gray-900">Golden Shadows</h1>
         </div>
@@ -7,12 +14,13 @@
             <h1 class="font-sans text-3xl p-2 text-gray-900">Voices of Two Exiled Artists</h1>
         </div>
         <div class="flex justify-center">
-            <h1 class="font-sans text-xl px-2 pt-2 pb-5  text-gray-900">A digital exhibition with Yadanar Win and Kolatt</h1>
+            <h1 class="font-sans text-xl px-2 pt-2 pb-5  text-gray-900">A digital exhibition with Yadanar Win and Kolatt <font-awesome-icon v-if="showGuide" :icon="['fas', 'user-secret']" /></h1>
         </div>
         <div class="flex justify-center">
-            <button @click="toggleGuide()" class="font-sans border border-black text-l p-2 mb-4 hover:bg-yellow-400 text-gray-900">
+            <button @click="toggleGuide()" class="font-sans border border-black text-l p-2 mb-4 hover:bg-yellow-400 text-gray-900" v-cloak>
                 <span>User Guide </span>
-                <font-awesome-icon v-if="showGuide" icon="fa-solid fa-chevron-up" /><font-awesome-icon v-else icon="fa-solid fa-chevron-down" />
+               <font-awesome-icon v-if="showGuide" :icon="['fas', 'chevron-up']" v-cloak /><font-awesome-icon v-else :icon="['fas', 'chevron-down']" v-cloak />
+                <!-- <font-awesome-icon icon="fa-solid fa-chevron-down" /> -->
             </button>
         </div>
         <div class="flex justify-center ">
@@ -27,9 +35,9 @@
         </div>
 
 
-        <div class=" test bg-yellow-50 ">
-    <!--begin kunstmatrix--> <iframe class="test" allowfullscreen="true" frameborder="0" scrolling="no" src="https://art.kunstmatrix.com/apps/artspaces/?external=true&uid=87648&exhibition=10681893" width="100%" height="600"></iframe><!--end kunstmatrix-->
-    </div>
+        
+     <iframe v-cloak class="test" allowfullscreen="true" frameborder="0" scrolling="no" src="https://art.kunstmatrix.com/apps/artspaces/?external=true&uid=87648&exhibition=10681893" width="100%" height="600"></iframe>
+    
     <div class="m-10 p-10"></div>
     </div>
 </template>
@@ -43,12 +51,18 @@
     height: 600px;
 
     }
+
+    [v-cloak] {
+    display: none !important;
+}
     
     
     </style>
 
 <script>
+
 export default defineNuxtComponent({
+
     data(){
  return{
    showGuide:false,
