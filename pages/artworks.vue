@@ -7,12 +7,11 @@
     </Head>
     <article class="max-w-prose mb-5 sm:mx-4 md:mx-auto">
         <h1 class="font-sans text-5xl text-gray-900">About the Artworks</h1>
-        <h2 class="font-sans mt-5 text-3xl text-gray-900">Introduction</h2>
-        <div class= "mt-3 mx-auto prose prose-indigo">
-        <em> Golden Shadows </em> presents photographic artworks from three live art performances, all of which have been performed jointly by Yadanar and Kolatt in 2021-2022. The exhibition displays the 12 photographs in three series, each a selection from the corresponding live art performance. 
+        <div class= "mt-5 mx-auto prose prose-indigo">
+            <em class="font-bold">Golden Shadows – Voices of Two Exiled Artists</em>
+            presents photographic artworks from three live art performances, all of which have been performed jointly by Yadanar and Kolatt in 2021-2022. The exhibition displays 12 photographs in three series, each representing a selection from the corresponding live art performance.  
         <br/>
-        These photographs capture and encapsule experiences Yadanar and Kolatt express through their bodies, conveying the emotions they infuse in their live art performances. Inspired by the original material and message, the displayed works create new ties and meanings among themselves. In turn, conveying their own powerful emotions and narrative – thus, becoming artworks of their own.
-        </div>
+        These photographs capture and encapsule experiences Yadanar and Kolatt express through their bodies, conveying the emotions they infuse in their live art performances. Inspired by the original material and message, the displayed works create new ties and meanings among themselves. In turn, conveying their own powerful emotions and narrative – thus, becoming artworks of their own.        </div>
         <h2 class="font-sans mt-5 text-3xl text-gray-900">Bloody Gold</h2>
         <div class= "mt-3 mx-auto prose prose-indigo">
             This series captures Yadanar and Kolatt’s deeply personal and emotional representation of the political situation in Myanmar.
@@ -35,9 +34,12 @@ Bloody Gold portrays the wasteful violence of the current situation in Myanmar, 
     </div>
     <h2 class="font-sans mt-5 text-3xl text-gray-900">Bloody Coup</h2>
         <div class= "mt-3 mx-auto prose prose-indigo">
-        The <em> Bloody Coup </em> series focuses on select snapshots from live art protest, held in Yangon after the execution of protesters by Myanmar’s military junta, which Yadanar and Kolatt performed together with fellow artist Mai Ei as part of the 3AM collective.
+        The <em> Bloody Coup </em>series focuses on selected shots from the live art protest held under the Myay-ni-Gone Bridge in Yangon after the execution of democracy activists by Myanmar’s military junta. 
+        Yadanar and Kolatt performed the protest together with fellow artist Mai Ei as part of the 3AM collective.
         <br/>
-        The powerful images reflect the artists’ feelings of betrayal, sadness and anger, but also their courage as they openly express their dissent: cutting off the roots of soybean sprouts as if they were the roots of the military itself.    
+        The powerful images reflect the artists’ feelings of betrayal, sadness and anger, but also their courage as they openly express their dissent: cutting off the roots of soybean sprouts as if they were the roots of the military itself.
+        <br>
+        Later, in February 2021, the military began shooting protesters, killing many activists. After that, people became more hesitant to hold peaceful gatherings, performances and acts of dissent.     
      </div>
      <div class="m-10 p-10"></div>
 
