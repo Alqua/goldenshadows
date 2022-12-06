@@ -15,7 +15,7 @@
             <h1 class="font-sans text-xl px-2 pt-2 p-2 text-gray-900">A digital exhibition with Yadanar Win and Kolatt</h1>
         </div>
         <div class="flex justify-center">
-            <h1 class="font-sans text-xl px-2 pt-2 pb-5  text-gray-900">From the 1st of November until the 11th of December 2022</h1>
+            <h1 class="font-sans text-xl px-2 pt-2 pb-5  text-gray-900">01 November 2022 to 11 December 2022</h1>
         </div>
         <div class="flex justify-center">
             <button @click="toggleGuide()" class="font-sans border border-black text-l p-2 mb-4 hover:bg-yellow-400 text-gray-900" v-cloak>
@@ -48,7 +48,7 @@
             The menu in the top-right corner also includes a <b>“help”</b> tab.
             </p> -->
             <div class="flex justify-center">
-                <img src="/assets/images/start-here.png" alt="" class="border border-grey-700">
+                <img src="/assets/images/start-here.png" alt="showing where the exhibition starts" class="border border-grey-700">
             </div>
             </div>
 
@@ -79,7 +79,7 @@
     
     </style>
 
-<script>
+<!-- <script>
 
 export default defineNuxtComponent({
 
@@ -95,5 +95,17 @@ toggleGuide(){
 },
 }
 
+})
+</script> -->
+<script setup>
+const showGuide = ref(false)
+const toggleGuide = () =>{
+    showGuide.value = !showGuide.value
+}
+
+useHead({
+    meta: [
+    { name: 'description', content: 'Golden Shadows, a digital exhibition with works from artists Yadanar Win and Kolatt from Myanmar' }    
+    ],
 })
 </script>

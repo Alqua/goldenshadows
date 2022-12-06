@@ -49,23 +49,21 @@
 
  
 
-<script>
-    export default defineNuxtComponent({
-        data(){
-     return{
-       showMobileMenu:false,
-
-     }
-   },
-   methods:{
-    toggle(){
-        this.showMobileMenu= !this.showMobileMenu
-    },
-    toggleClose(){
-      this.showMobileMenu=false
-    },
+<script setup>
+const showMobileMenu = ref(false)
+const toggle = () =>{
+    showMobileMenu.value = !showMobileMenu.value
 }
-
-    })
-    </script>
+const toggleClose = () =>{
+    showMobileMenu.value = false
+}
+useHead({
+    meta: [
+    { name: 'description', content: 'Golden Shadows, a digital exhibition with works from artists Yadanar Win and Kolatt from Myanmar' },
+    { hid: 'og-image', property: 'og:image',
+            content: '/img/golden-shadows.JPG'
+          },    
+    ],
+})
+</script>
     

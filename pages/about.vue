@@ -25,13 +25,14 @@ Digital exhibitions also constitute opportunities for wider access to the arts a
 <br>
 An important part of Yadanar and Kolatt's work consists of live performance art. They unfortunately had to leave parts of their other artworks, such as paintings, behind when they fled their home country of Myanmar after the coup d’état in 2021.
 <em> Golden Shadows</em> focuses on photographic artworks from three live art performances, all of which have been performed jointly by the artists in 2021-2022. The project brings together performances from different places in one virtual space, bridging the space between artworks. 
-<br>
-<br>
+<!-- <br>
+<br> --></div>
+<p class="mt-5" >
 Learn more about Yadanar and Kolatt in <a href="/meet" class="underline decoration-yellow-400 text-orange-900 hover:text-yellow-400 hover:decoration-orange-900"> Meet the Artists</a>
-</div>
+</p>
+<br>
 
-
-<h2 class="font-sans mt-5 text-3xl text-gray-900">Manuela Coldesina</h2>
+<h2 class="font-sans mt-8 text-3xl text-gray-900">Manuela Coldesina</h2>
 <div class= "mt-5 mx-auto prose prose-indigo">
     Manuela is an independent researcher and curator, as well as a Gen A fellow who recently became a part of the Asia Society Switzerland team. She has a background in Japanese Studies, Art History, and Critical Heritage and Museum Studies, holding both a B.A. from University of Zurich and an M.A. from Leiden University. 
     Recipient of the Ceschin-Pilone Fellowship Grant, she worked on a research and exhibition project about  
@@ -42,12 +43,13 @@ Learn more about Yadanar and Kolatt in <a href="/meet" class="underline decorati
     during the 2020 #VersusVirus hackaton.
     <em>Golden Shadows</em> allows her to combine her digital and non-digital curatorial experiences.
     <br>
-    <div class="text-4xl "> <a href="mailto:manuela.coldesina@gmail.com" class="text-gray-900 hover:text-gray-300"><font-awesome-icon icon="fa-regular fa-envelope" /></a>
+    <div class="text-4xl my-2"> <a href="mailto:manuela.coldesina@gmail.com" class="text-gray-900 hover:text-gray-300"><font-awesome-icon icon="fa-regular fa-envelope" /></a>
     <span> &nbsp;</span>
-    <a href="https://www.linkedin.com/in/manuela-coldesina" class="text-gray-900 hover:text-yellow-400" target="_blank" rel="noopener noreferrer"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
+    <a href="https://www.linkedin.com/in/manuela-coldesina" class="text-gray-900 hover:text-gray-300" target="_blank" rel="noopener noreferrer"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
     </div>
 </div>
-<h2 class="font-sans mt-5 text-3xl text-gray-900">Thibault Maillard</h2>
+<br>
+<h2 class="font-sans mt-8 text-3xl text-gray-900">Thibault Maillard</h2>
 <div class= "mt-5 mx-auto prose prose-indigo">
     Thibault Maillard holds a bachelor’s degree in Choreography from the SNDO Amsterdam and a Master in Chinese Studies from the University of Geneva. 
     While working as a freelance artist, he created multiple dance pieces and organized numerous artistic events. 
@@ -57,9 +59,9 @@ Learn more about Yadanar and Kolatt in <a href="/meet" class="underline decorati
     He recently redirected his career towards full-stack web development and Digital Humanities. 
     In this project, he happily combines his knowledge and interests for the arts, Asia and programming.
     <br>
-    <div class="text-4xl "> <a href="mailto:t.a.maillard@gmail.com" class="text-gray-900 hover:text-gray-300"><font-awesome-icon icon="fa-regular fa-envelope" /></a>
+    <div class="text-4xl my-2"> <a href="mailto:t.a.maillard@gmail.com" class="text-gray-900 hover:text-gray-300"><font-awesome-icon icon="fa-regular fa-envelope" /></a>
     <span> &nbsp;</span>
-    <a href="https://www.linkedin.com/in/thibault-a-maillard" class="text-gray-900 hover:text-yellow-400" target="_blank" rel="noopener noreferrer"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
+    <a href="https://www.linkedin.com/in/thibault-a-maillard" class="text-gray-900 hover:text-gray-300" target="_blank" rel="noopener noreferrer"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
     </div>
 </div>
 
@@ -72,3 +74,10 @@ Learn more about Yadanar and Kolatt in <a href="/meet" class="underline decorati
 
     </div>
 </template>
+<script setup>
+  useHead({
+    meta: [
+    { name: 'description', content: 'A description of the project of Golden Shadows, a digital exhibition  with burmese artists Yadanar and Kolatt. Here some information about the curators, Manuela Coldesina and Thibault Maillard can also be found.' }    
+    ],
+})
+</script>

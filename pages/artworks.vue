@@ -16,7 +16,7 @@
         <div class= "mt-3 mx-auto prose prose-indigo">
             This series captures Yadanar and Kolatt’s deeply personal and emotional representation of the political situation in Myanmar.
             <br>
-A constant presence in the series, the color gold symbolizes the motherland and its rich resources and culture. The rice that springs from this richness is a gift from this land, as well as the main source of nourishment for its people. However, both the gold and the rice have now become tainted with blood.
+A constant presence in the series, the color gold symbolizes the motherland and its rich resources and culture. The rice that springs from this richness is a gift from the land, as well as the main source of nourishment for its people. However, both the gold and the rice have now become tainted with blood.
 <br>
 Bloody Gold portrays the wasteful violence of the current situation in Myanmar, as well as its people’s struggle to keep their hope alive:
 <br>
@@ -50,3 +50,10 @@ Bloody Gold portrays the wasteful violence of the current situation in Myanmar, 
 
     </div>
 </template>
+<script setup>
+  useHead({
+    meta: [
+    { name: 'description', content: 'An explaination of the artworks from the burmese artists Yadanar Win and Kolatt presented in Golden Shadows, a digital exhibition' }    
+    ],
+})
+</script>
